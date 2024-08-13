@@ -1,0 +1,2 @@
+Email Summary Feature
+This Django project allows users to upload Excel/CSV files, processes the data, and generates a summary report. The report is sent via HTML email using Django's EmailMessage. The email includes a styled summary and is configured for compatibility with various email clients.
