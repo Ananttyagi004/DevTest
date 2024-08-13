@@ -22,7 +22,7 @@ def upload_file(request):
     return render(request, 'file_upload/upload.html', {'form': form})
 
 def send_email(summary):
-    subject = 'Python Assignment - Your Name'
+    subject = 'Python Assignment - Anant Tyagi'
     html_message = render_to_string('file_upload/email_template.html', {'summary': summary})
     plain_message = strip_tags(html_message)
     email_from = settings.EMAIL_HOST_USER
