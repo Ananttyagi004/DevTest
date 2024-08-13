@@ -26,7 +26,7 @@ def send_email(summary):
     html_message = render_to_string('file_upload/email_template.html', {'summary': summary})
     plain_message = strip_tags(html_message)
     email_from = settings.EMAIL_HOST_USER
-    recipient_list = ['ananttyagi1902@gmail.com', ]
+    recipient_list = ['ananttyagi1902@gmail.com','tech@themedius.ai','yash@themedius.ai' ]
     
     email = EmailMessage(
         subject=subject,
